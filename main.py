@@ -27,7 +27,7 @@ async def on_ready():
     game = nextcord.Game("imong mama...")
     await client.change_presence(activity = game)
     print("==========================")
-    print("||   Think-bot online.  ||")
+    print("||   Synth bot online.  ||")
     print("==========================")
 
 initial_cogs = []

@@ -117,8 +117,8 @@ class Misc(commands.Cog):
          channel_count += len(guild.channels)
 
       em = nextcord.Embed(color=0x00BCE3)
-      em.set_author(name='Think-Bot Stats', icon_url=self.client.user.avatar)
-      em.add_field(name=u'\U0001F4AC  Prefix', value=".", inline=False)
+      em.set_author(name='Synth Bot Stats', icon_url=self.client.user.avatar)
+      em.add_field(name=u'\U0001F4AC  Prefix', value="/", inline=False)
       em.add_field(name=u'\U0001F553  Uptime', value=time, inline=False)
       em.add_field(name=u'\u2694  Servers', value=str(len(self.client.guilds)), inline=False)
       em.add_field(name=u'\ud83d\udcd1  Channels', value=str(channel_count), inline=False)
