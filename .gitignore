@@ -1,0 +1,5 @@
+# Exclude configs for privacy, generate your own
+/configs/config.json
+
+# Exclude caches
+__pycache__
